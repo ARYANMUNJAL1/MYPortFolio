@@ -1,0 +1,234 @@
+.parent{
+    background-color:rgb(235, 219, 197);
+    width: 100%;
+    height:100px;
+    border-radius: 30px;
+}
+.navbar{
+    margin-left:30px;
+    margin-right:20px; 
+    padding:25px;
+    
+}
+.navbar1{
+    float: right;
+    
+   
+}
+.navbar2{
+    float: right;
+
+}  
+.navbar3{
+    float: right;
+   
+    
+    
+}
+.navbar4{
+    float: right;
+    
+    
+}
+
+.navbar5{
+    font-size: 2.1em;
+    padding: 10px;
+    
+}
+
+.parent1{
+    background-color: rgb(86, 112, 138);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 10px 20px grey;
+}
+.box1{
+     text-align: justify;
+}
+h3{
+    text-decoration: underline;
+    color: lightsteelblue;
+    font-size: 35px;
+    width: 100%;
+}
+p{
+    color:lightgreen;
+    margin-right: 20px;
+   
+    font-size: 20px;
+}
+.container{
+    height: 500px; 
+    background-color: rgb(167, 163, 167);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 10px 20px  #888888;
+}
+.button1{
+  margin-left: 150px;
+  background-color:rgb(86, 112, 138);
+  padding: 15px 25px;
+  border-radius: 5px;
+
+}
+
+.button1:hover{
+    background-color: rgb(151, 141, 141);
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: rgb(151, 141, 141);
+    cursor: pointer;
+}
+
+.button2{
+    margin-bottom: 20px;
+    background-color:rgb(86, 112, 138);
+    padding: 15px 25px;
+    border-radius: 5px;
+    
+}
+
+h1{
+    font-size:45px;
+    text-align: start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.image1{
+  margin-left: 30px;
+
+}
+h2{
+    text-align: center;
+    color:rgb(22, 165, 190);
+    font-size: 60px;
+    text-decoration: underline;
+}
+.profile{
+    display:grid;
+    justify-content: space-around;
+    border: 2px solid black;
+    height: 600px;
+    padding: 25px;
+    border-radius:50px;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(2,300px);
+    grid-column-gap: 10px;
+    row-gap: 5px;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.thoughts{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    margin-left: 150px;
+    margin-right: 250px;
+    border: 2px solid black;
+}
+
+.person1{
+    margin-left: 3em;
+    text-align: justify;
+    
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+}
+.connect{
+    padding: 80px;
+    background-color: antiquewhite;
+}
+.msgs{
+    background-color: rgb(116, 234, 234);
+    padding: 80px;
+}
+.last{
+    text-align: center; 
+    background-color: bisque;
+    height: 80px;
+    font-size: xx-large;
+}
+.first{
+    background-color: rgba(193, 190, 190, 0.447);
+}
+.person{
+   padding: 60px;
+}
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    background-color: rgb(235, 219, 197); 
+  }
+  
+  .dropdown {
+    display: inline-block;
+    position:relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+.navbar1 a{
+    text-decoration: none;
+    color: rgb(9, 49, 98);
+
+  }
+.navbar2 a{
+    text-decoration: none;
+    color: rgb(9, 49, 98);
+
+  }
+.navbar3 a{
+    text-decoration: none;
+    color: rgb(9, 49, 98);
+
+  }
+.navbar4 a{
+    text-decoration: none;
+    color: rgb(9, 49, 98);
+
+  }
+  .navbar1 a:hover{
+    background-color: #888888;
+  }
+  .navbar2 a:hover{
+    background-color: #888888;
+  }
+  .navbar3 a:hover{
+    background-color: #888888;
+  }
+  .navbar4 a:hover{
+    background-color: #888888;
+  }
+  
+  h4 h5 {
+    font-size: 35px;
+  }
+  
